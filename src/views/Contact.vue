@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="contact">
     <div class="secondary--page" />
     <v-container class="contact--page">
       <v-row>
@@ -75,41 +75,47 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-.secondary--page {
-  @media screen and (min-width: 500px) {
-  opacity: 1;
-  z-index: 0;
+<style lang="scss">
+@import "../assets/variables.scss";
+.contact {
+  .secondary--page {
+    opacity: 0.18;
+    z-index: 1;
+    @media screen and (min-width: 500px) {
+      opacity: 1;
+      z-index: 2;
+    }
   }
-}
-.contact--page {
-  position: absolute;
-  z-index: 2;
-  padding-top: 7%;
-  @media screen and (max-width: 500px ){
-    padding-top: 15%;
-  }
-}
+  .contact--page {
+    background-color: $dark;
+    height: 100vh;
+    position: absolute;
+    padding-top: 7%;
+    @media screen and (max-width: 500px) {
+      padding-top: 15%;
+      height: 100vh;
+    }
+    input {
+      height: 38px;
+      width: 100%;
+      margin: 1em 0em;
+      border-bottom: 1px solid gray;
+      &:focus {
+        outline: none;
+        border-bottom-color: rgb(190, 188, 188);
+      }
+    }
 
-input {
-  height: 38px;
-  width: 100%;
-  margin: 1em 0em;
-  border-bottom: 1px solid gray;
-  &:focus {
-    outline: none;
-    border-bottom-color: rgb(190, 188, 188);
-  }
-}
-
-textarea {
-  width: 100%;
-  margin: 1em 0em;
-  height: 150px;
-  border-bottom: 1px solid gray;
-  &:focus {
-    outline: none;
-    border-bottom-color: rgb(190, 188, 188);
+    textarea {
+      width: 100%;
+      margin: 1em 0em;
+      height: 150px;
+      border-bottom: 1px solid gray;
+      &:focus {
+        outline: none;
+        border-bottom-color: rgb(190, 188, 188);
+      }
+    }
   }
 }
 </style>

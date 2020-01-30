@@ -19,6 +19,7 @@ body {
   width: 100vw;
 }
 #app {
+  height: 100vh;
   font-family: "Source Code Pro", monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -26,18 +27,21 @@ body {
   text-align: center;
   padding: 0;
   margin: 0;
+  z-index: "-2";
   background-color: $dark;
-  height: 100vh;
   .home {
     background: url("assets/back-code.jpg");
     background-size: cover;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     opacity: 0.18;
     z-index: 2;
     position: absolute;
     filter: blur(8px);
     top: 0;
+  }
+  @media screen and (max-width: 500px) {
+    height: unset;
   }
 }
 
@@ -51,13 +55,16 @@ body {
   width: 70%;
   opacity: 0.18;
   z-index: 0;
+  @media screen and (max-width: 500px) {
+    z-index: -2;
+  }
 }
 
 #nav {
   text-align: left;
   padding: 3em;
   z-index: 10;
-  position:relative;
+  position: relative;
   a {
     color: white;
     font-size: 18px;
@@ -75,7 +82,6 @@ body {
   @media screen and (max-width: 500px) {
     padding: 1em;
     text-align: center;
-    position: absolute;
   }
 }
 
@@ -87,5 +93,8 @@ a {
   &.v-label {
     left: 0 !important;
   }
+}
+.row {
+  margin: 0 !important;
 }
 </style>
