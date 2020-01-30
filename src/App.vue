@@ -43,11 +43,12 @@ body {
 
 .secondary--page {
   background: url("assets/back-lamp.png");
+  background-size: contain;
   background-repeat: no-repeat;
-  padding: 3em;
+  margin-left: 6em;
   position: absolute;
-  height: 100%;
-  width: 100%;
+  height: 80%;
+  width: 70%;
   opacity: 0.18;
   z-index: 0;
 }

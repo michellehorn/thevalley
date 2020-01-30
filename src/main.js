@@ -14,11 +14,12 @@ Vue.config.productionTip = false
 
 Vue.use(Vuetify);
 
+
 new Vue({
   Vuetify,
   router,
   icons: {
-    iconfont: 'md',
+    iconfont: [ 'mdi']
   },
   render: h => h(App)
 }).$mount('#app')
