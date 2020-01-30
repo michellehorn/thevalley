@@ -104,12 +104,11 @@ export default {
       h2 {
         color: $light;
         padding-right: 3em;
-        padding-bottom: 5%;
+        padding-bottom: 3%;
         font-weight: bold;
       }
       h4 {
         color: $light;
-        padding-bottom: 5%;
         font-weight: normal;
         line-height: 1.7em;
       }
@@ -144,7 +143,6 @@ export default {
           }
           a {
             float: right;
-            margin-top: 42px;
             color: white;
             font-size: 12px;
             text-transform: uppercase;

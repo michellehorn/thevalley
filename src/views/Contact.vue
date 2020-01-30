@@ -4,7 +4,7 @@
     <v-container class="contact--page">
       <v-row>
         <v-col cols="12" md="7" sm="12"></v-col>
-        <v-col cols="12" md="5" sm="12">
+        <v-col cols="12" md="5" sm="12" class="contact-form">
           <div>
             <input placeholder="Nome" type="text" v-model="form.name" />
           </div>
@@ -91,9 +91,10 @@ export default {
     height: 100vh;
     position: absolute;
     padding-top: 7%;
-    @media screen and (max-width: 500px) {
-      padding-top: 15%;
-      height: 100vh;
+    .contact-form {
+      @media screen and (min-width: 500px) {
+        padding-right: 5em;
+      }
     }
     input {
       height: 38px;
@@ -115,6 +116,13 @@ export default {
         outline: none;
         border-bottom-color: rgb(190, 188, 188);
       }
+    }
+    @media screen and (max-width: 500px) {
+      padding-top: 15%;
+      height: 100vh;
+    }
+    @media (min-width: 1264px) {
+      max-width: 100% !important;
     }
   }
 }
