@@ -88,9 +88,11 @@ export default {
   }
   .contact--page {
     background-color: $dark;
+    height: 70%;
     position: absolute;
     padding-top: 7%;
     .contact-form {
+      z-index: 10;
       @media screen and (min-width: 500px) {
         padding-right: 5em;
       }
