@@ -133,10 +133,18 @@ export default {
           font-size: 20px;
           text-transform: uppercase;
           font-weight: bold;
+          @media screen and (max-width: 500px) {
+            font-size: 15px;
+          }
         }
         &-content {
           width: 100%;
           color: white;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          
           img {
             width: 16px;
             margin-right: 0.5em;
@@ -150,6 +158,18 @@ export default {
               text-decoration: underline;
               cursor: pointer; 
             }
+            @media screen and (max-width: 500px) {
+              display: block;
+              float: none;
+              border: 1px solid $primary;
+              border-radius: 8px;
+              padding: 8px;              
+              text-align: center;
+              margin-top: 0.5em;
+            }
+          }
+          @media screen and (max-width: 500px) {
+            font-size: 13px;
           }
         }
       }

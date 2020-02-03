@@ -53,7 +53,6 @@ export default {
   .courses {
     padding-top: 7%;
     text-align: center;
-    padding-left: 7%;
     width: 100%;
     height: 100%;
     .courses--item {
@@ -111,16 +110,16 @@ export default {
         }
       }
     }
-    @media screen and (min-width: 500px) {
-      padding-left: 10em;
-      padding-right: 10em;
-      display: flex;
-    }
     &--list {
       &--code {
         width: 200px;
         border: 1px;
       }
+    }
+    @media screen and (min-width: 500px) {
+      padding-left: 10em;
+      padding-right: 10em;
+      display: flex;
     }
   }
 }

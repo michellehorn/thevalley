@@ -88,7 +88,6 @@ export default {
   }
   .contact--page {
     background-color: $dark;
-    height: 100vh;
     position: absolute;
     padding-top: 7%;
     .contact-form {
@@ -119,7 +118,7 @@ export default {
     }
     @media screen and (max-width: 500px) {
       padding-top: 15%;
-      height: 100vh;
+      height: 93vh;
     }
     @media (min-width: 1264px) {
       max-width: 100% !important;

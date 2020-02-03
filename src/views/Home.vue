@@ -39,7 +39,7 @@ export default {
 @import "../assets/variables.scss";
 
 .main-page {
-  height: 100vh;
+  height: 100%;
   &--subtitle {
     padding-top: 2em;
     color: $primary;
@@ -67,7 +67,8 @@ export default {
     }
   }
   @media screen and (max-width: 500px) {
-    padding-top: 4em;
+    padding: 2em 8px 0;
+    height: 93vh;
   }
 }
 img {
