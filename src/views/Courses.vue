@@ -2,7 +2,7 @@
   <v-layout class="courses-page">
     <div class="secondary--page" />
     <v-row class="courses">
-      <v-col md="4" sm="12" v-for="(course, index) in courses" :key="index">
+      <v-col md="6" sm="12" v-for="(course, index) in courses" :key="index" class="align-cards">
         <router-link :to="`courses/${course.class}`">
           <v-card
             raised
@@ -31,14 +31,9 @@ export default {
         class: "code"
       },
       {
-        name: "Data Science",
+        name: "Ciência de Dados",
         icon: "icon-data",
         class: "data-science"
-      },
-      {
-        name: "Data Analytics",
-        icon: "icon-search",
-        class: "data-analytics"
       }
     ]
   })
@@ -51,25 +46,29 @@ export default {
     z-index: 0;
   }
   .courses {
-    padding-top: 7%;
+    padding-top: 4%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
     width: 100%;
     height: 100%;
+   
     .courses--item {
-      width: 250px;
-      height: 300px;
+      width: 350px;
+      height: 400px;
       padding: 15% 0%;
       img {
         z-index: 2;
-        width: 100px;
+        height: 150px;
         margin-bottom: 15%;
-        max-height: 100px;
       }
       span {
         color: white;
         font-weight: light;
         display: block;
-        font-size: 25px;
+        font-size: 30px;
       }
       &--code {
         border: 3px solid $green !important;
@@ -91,7 +90,7 @@ export default {
           box-shadow: 3px 3px 10px $red;
         }
       }
-      &--data-analytics {
+      &--mobile {
         border: 3px solid $blue !important;
         background-color: $blue !important;
         &:hover {
@@ -105,7 +104,7 @@ export default {
         width: 300px;
         height: 200px;
         img {
-          width: 70px;
+          height: 70px;
           margin-bottom: 5%;
         }
       }
@@ -122,5 +121,9 @@ export default {
       display: flex;
     }
   }
+}
+.align-cards {
+  display: flex !important;
+  justify-content: center;
 }
 </style>

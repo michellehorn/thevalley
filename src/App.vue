@@ -14,6 +14,10 @@
 @import "assets/variables.scss";
 @import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,500,700&display=swap");
 
+.v-expansion-panel-content__wrap {
+  margin: 0em 24px !important;
+  padding: 0em 0px !important;
+}
 body {
   height: 100vh;
   width: 100vw;
@@ -39,9 +43,6 @@ body {
     position: absolute;
     filter: blur(8px);
     top: 0;
-  }
-  @media screen and (max-width: 500px) {
-    height: unset;
   }
 }
 
@@ -97,4 +98,24 @@ a {
 .row {
   margin: 0 !important;
 }
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 </style>

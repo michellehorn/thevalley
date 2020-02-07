@@ -5,6 +5,7 @@ import Courses from '../views/Courses.vue'
 import CoursesDetail from '../views/CoursesDetail.vue'
 import Contact from '../views/Contact.vue'
 import About from '../views/About.vue'
+import Admin from '../views/Admin.vue'
 
 Vue.use(VueRouter)
 
@@ -25,6 +26,11 @@ const routes = [
     component: CoursesDetail,
   },
   {
+    path: '/courses/:name',
+    name: 'courses-detail',
+    component: CoursesDetail,
+  },
+  {
     path: '/courses',
     name: 'courses',
     component: Courses,
@@ -33,11 +39,17 @@ const routes = [
     path: '/about',
     name: 'about',
     component: About,
+  },
+  {
+    path: '/admin',
+    name: 'admin',
+    component: Admin,
   }
 ]
 
 const router = new VueRouter({
-  routes
+  routes,
+  mode: 'history'
 })
 
 export default router

@@ -1,7 +1,7 @@
 export const aboutData = [ 
     { 
         name: 'Quem somos?',
-        text: 'A The Valley surgiu com o propósito de capacitar pessoas para o mercado de tecnologia, o qual possui inúmeras oportunidades que não são preenchidas por falta de mão de obra especializada'
+        text: 'A The Valley surgiu com o propósito de capacitar pessoas e empresas na área de tecnologia, contribuindo para a sustentabilidade dos negócios e recursos humanos na era digital'
     },
     {
         name: 'Proposta de Valor',

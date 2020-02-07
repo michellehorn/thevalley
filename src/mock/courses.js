@@ -3,46 +3,79 @@ export const modality = [
     name: "Programação",
     type: "code",
     whyStudy:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "Diferente do que muito gente pensa, você não precisa ser um gênio para aprender a programar. Já dizia Steve Jobs, um dos fundadores da Apple: aprender a programar um computador te ensina a pensar! A verdade é que a tecnologia avançou muito nos últimos anos e os computadores estão em toda a parte. Saber programar é uma habilidade importantíssima no século 21, permitindo que o indivíduo saiba se expressar através das tecnologias, e não apenas manuseá-las. Portanto, o quanto antes você começar a aprender, mais cedo poderá colocar em prática essa nova competência.",
+    work_market:
+      "A programação é hoje o caminho para tornar as pessoas fluentes em novas tecnologias. Atualmente, em praticamente todas as áreas, a tecnologia está presente nas atividades de todas as empresas. Em um mundo coberto por tecnologias, quem não souber programar poderá encontrar muitas dificuldades de empregabilidade. Além disso, hoje em dia existem inúmeras oportunidades para programadores em quase todos os segmentos do mercado. A hora de aprender é agora!",
     icon: "icon-code",
     mainTypeCourses: [
-      {
-        career: "Lógica de Programação",
-        courses: [
-          {
-            name: "Lógica de Programação e Algoritmos",
-            linkMenu:
-              "https://docs.google.com/document/d/1mlo6QTmCmn8alkZAYjY9QmhCVOJFv5ZyRoFIaig1VqA/edit?usp=sharing",
-            level: "begginer"
-          }
-        ]
-      },
       {
         career: "Front-end",
         courses: [
           {
-            name: "Front-end from zero to hero",
+            name: "Front-end From Zero to Hero",
+            subtext: "HTML, CSS, JAVASCRIPT",
             linkMenu:
-              "https://docs.google.com/document/d/1rMkVxO6f7Nd31ocyZaO3FGB9ecp5W0Fwq0csB7zczA8/edit?usp=sharing",
-            level: "begginer"
+              "https://drive.google.com/open?id=1rc3Fk1oZH7mO48F0W3PL2_XErlv6hrtq",
+            level: "begginer",
+            price: 1200,
+            paymentTimes: 12,
+            time: 120,
+            projects: 2,
+            linkToBuy: "bla",
+            nextClasses: [
+              { date: "14/03/2020", city: "São Paulo" },
+              { date: "14/03/2020", city: "São Paulo" },
+              { date: "14/03/2020", city: "São Paulo" }
+            ],
+            prereq: "Nenhum"
           },
           {
             name: "Vuejs",
             linkMenu:
-              "https://docs.google.com/document/d/1bGkRoibWVtqwyf60MZ8RmnjrR-ouMV-qCXjLiW6Gmls/edit?usp=sharing",
-            level: "mid"
+              "https://drive.google.com/open?id=1gIo_WSUF5tGNZAarWz1Il4yBFK_7r_3i",
+            level: "mid",
+            price: 500,
+            paymentTimes: 12,
+            time: 60,
+            projects: 2,
+            linkToBuy: "bla",
+            nextClasses: [
+              { date: "14/03/2020", city: "São Paulo" },
+              { date: "14/03/2020", city: "São Paulo" }
+            ],
+            prereq: "HTML, CSS e Javascript"
           },
           {
             name: "React",
             linkMenu:
-              "https://docs.google.com/document/d/19VxeZfiNsZr03jt8RMR_0nLvcYlhXMHv8xQmPT-igjo/edit?usp=sharing",
-            level: "mid"
+              "https://drive.google.com/open?id=1PN_u-sf1bJkAl5IiReLAYM_q9o3-_qnx",
+            level: "mid",
+            price: 500,
+            paymentTimes: 12,
+            time: 60,
+            projects: 2,
+            linkToBuy: "bla",
+            nextClasses: [
+              { date: "14/03/2020", city: "São Paulo" },
+              { date: "14/03/2020", city: "São Paulo" }
+            ],
+            prereq: "HTML, CSS e Javascript"
           },
           {
             name: "Angular",
             linkMenu:
-              "https://docs.google.com/document/d/1RoRHZ7tLUQBoZi6cV3Php529NORgMYnOHPRwI19at0c/edit?usp=sharing",
-            level: "mid"
+              "https://drive.google.com/open?id=1cuvioQuzcl6zuPexcV4J_gS2hNJYg_PD",
+            level: "mid",
+            price: 500,
+            paymentTimes: 12,
+            time: 60,
+            projects: 2,
+            linkToBuy: "bla",
+            nextClasses: [
+              { date: "14/03/2020", city: "São Paulo" },
+              { date: "14/03/2020", city: "São Paulo" }
+            ],
+            prereq: "HTML, CSS e Javascript"
           }
         ]
       },
@@ -50,21 +83,102 @@ export const modality = [
         career: "Back-end",
         courses: [
           {
-            name: "Nodejs complete",
+            name: "Nodejs",
             linkMenu:
-              "https://docs.google.com/document/d/1Orm2kLablTG84PijdDckpqqJmpBvOi7AeSx8N_Q9JwM/edit?usp=sharing",
-            level: "begginer"
+              "https://drive.google.com/open?id=1BVslaNlBkBX6ajQJ124fwU9343sfC-0m",
+            level: "begginer",
+            price: 1200,
+            paymentTimes: 12,
+            time: 120,
+            projects: 2,
+            linkToBuy: "bla",
+            nextClasses: [
+              { date: "14/03/2020", city: "São Paulo" },
+              { date: "14/03/2020", city: "São Paulo" }
+            ],
+            prereq: "Nenhum"
+          },
+          {
+            name: "Python",
+            linkMenu: "https://drive.google.com/open?id=1fnhclbz7q6O8fDMGhT6Bx8aGYB7mXGlK",
+            level: "begginer",
+            price: 1200,
+            paymentTimes: 12,
+            time: 120,
+            projects: 2,
+            linkToBuy: "bla",
+            nextClasses: [
+              { date: "14/03/2020", city: "São Paulo" },
+              { date: "14/03/2020", city: "São Paulo" },
+              { date: "14/03/2020", city: "São Paulo" }
+            ],
+            prereq: "Nenhum"
+          },
+          {
+            name: "Java",
+            linkMenu: "https://drive.google.com/open?id=1qCloYgNq7eQOOhcuqS5jfw0TTsIDjy2I",
+            level: "begginer",
+            price: 1200,
+            paymentTimes: 12,
+            time: 120,
+            projects: 2,
+            linkToBuy: "bla",
+            nextClasses: [
+              { date: "14/03/2020", city: "São Paulo" },
+              { date: "14/03/2020", city: "São Paulo" },
+              { date: "14/03/2020", city: "São Paulo" }
+            ],
+            prereq: "Nenhum"
+          }
+        ]
+      },
+      {
+        career: "Mobile",
+        courses: [
+          {
+            name: "Android",
+            linkMenu: null,
+            level: "begginer",
+            price: 1200,
+            paymentTimes: 12,
+            time: 120,
+            projects: 2,
+            linkToBuy: "bla",
+            nextClasses: [
+              { date: "14/03/2020", city: "São Paulo" },
+              { date: "14/03/2020", city: "São Paulo" },
+              { date: "14/03/2020", city: "São Paulo" }
+            ],
+            prereq: "Nenhum"
+          },
+          {
+            name: "IOS",
+            linkMenu: null,
+            level: "begginer",
+            price: 1200,
+            paymentTimes: 12,
+            time: 120,
+            projects: 2,
+            linkToBuy: "bla",
+            nextClasses: [
+              { date: "14/03/2020", city: "São Paulo" },
+              { date: "14/03/2020", city: "São Paulo" },
+              { date: "14/03/2020", city: "São Paulo" }
+            ],
+            prereq: "Nenhum"
           }
         ]
       }
     ]
   },
   {
-    name: "Data Science",
+    name: "Ciência de Dados",
     type: "data-science",
-    whyStudy:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     icon: "icon-data",
+    whyStudy:
+      "Com a crescente quantidade de dados provenientes das mais variadas origens, a capacidade de utilizar estes dados para gerar valor ao negócio passou a ser um fator determinante da competitividade e da inteligência de negócio das empresas.  A capacidade em promover soluções por meio de uma análise técnica de informações coletadas, faz com que conhecimentos nessa área sejam cada vez mais requeridos e valorizados.",
+    work_market:
+      "A capacidade de analisar informações complexas é um tipo de conhecimento cada vez mais reconhecido no mercado de trabalho, o que torna a área de Ciência de Dados uma das mais promissoras para quem busca bons empregos.",
     mainTypeCourses: [
       {
         career: "Inteligência Artificial",
@@ -72,12 +186,36 @@ export const modality = [
           {
             name: "Inteligência Artificial I",
             linkMenu:
-              "https://docs.google.com/document/d/1XulAUNKjzu2DB15LaWcy9QWfNEzKliZdE8zQOcyXAyA/edit?usp=sharing"
+              "https://drive.google.com/open?id=10fB9uzNsr3dFxx_Vi3reH5W4lR2i3C6t",
+            level: "begginer",
+            price: 1200,
+            paymentTimes: 12,
+            time: 120,
+            projects: 2,
+            linkToBuy: "bla",
+            nextClasses: [
+              { date: "14/03/2020", city: "São Paulo" },
+              { date: "14/03/2020", city: "São Paulo" },
+              { date: "14/03/2020", city: "São Paulo" }
+            ],
+            prereq: "Nenhum"
           },
           {
             name: "Inteligência Artificial II",
             linkMenu:
-              "https://docs.google.com/document/d/1cU_Kj7IY29_Jo0SnXoKLIvVAGFCxSRS5qMLBmZtIHP4/edit?usp=sharing"
+              "https://drive.google.com/open?id=14DDOx_6L2gXQmxPXhOxVjhYZirUqv3N_",
+            level: "begginer",
+            price: 1200,
+            paymentTimes: 12,
+            time: 120,
+            projects: 2,
+            linkToBuy: "bla",
+            nextClasses: [
+              { date: "14/03/2020", city: "São Paulo" },
+              { date: "14/03/2020", city: "São Paulo" },
+              { date: "14/03/2020", city: "São Paulo" }
+            ],
+            prereq: "Nenhum"
           }
         ]
       },
@@ -87,32 +225,58 @@ export const modality = [
           {
             name: "Database I",
             linkMenu:
-              "https://docs.google.com/document/d/1577K-_KYaGRvN7OZrmfKbgkZtnWFUExwidCnqs8dPgc/edit?usp=sharing"
+              "https://drive.google.com/open?id=1Xp119owuYyZ35NQlPMWtiOv-MNn6JNaE",
+            level: "begginer",
+            price: 1200,
+            paymentTimes: 12,
+            time: 120,
+            projects: 2,
+            linkToBuy: "bla",
+            nextClasses: [
+              { date: "14/03/2020", city: "São Paulo" },
+              { date: "14/03/2020", city: "São Paulo" },
+              { date: "14/03/2020", city: "São Paulo" }
+            ],
+            prereq: "Nenhum"
           },
           {
             name: "Database II",
             linkMenu:
-              "https://docs.google.com/document/d/1AllyX8gS4lLNpEjPSU9vExry0M4krjmy047MEXHiwEU/edit?usp=sharing"
+              "https://drive.google.com/open?id=1zDCXUK0_VJxML1kKDw5Lor3RkGz9g1W2",
+            level: "begginer",
+            price: 1200,
+            paymentTimes: 12,
+            time: 120,
+            projects: 2,
+            linkToBuy: "bla",
+            nextClasses: [
+              { date: "14/03/2020", city: "São Paulo" },
+              { date: "14/03/2020", city: "São Paulo" },
+              { date: "14/03/2020", city: "São Paulo" }
+            ],
+            prereq: "Nenhum"
           }
         ]
-      }
-    ]
-  },
-
-  {
-    name: "Data Analytics",
-    type: "data-analytics",
-    whyStudy:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    icon: "icon-search",
-    mainTypeCourses: [
+      },
       {
         career: "Data Analytics",
         courses: [
           {
             name: "Data Analytics I",
             linkMenu:
-              "https://docs.google.com/document/d/1Bc6S5J5hf_qm0hBRSa6Gl_IsGTmDrAgThVX0v3mxtOw/edit?usp=sharing"
+              "https://drive.google.com/open?id=1o7FCkVCeDKkAIOQ0u6CaPzg-aIlWaLwx",
+            level: "begginer",
+            price: 1200,
+            paymentTimes: 12,
+            time: 120,
+            projects: 2,
+            linkToBuy: "bla",
+            nextClasses: [
+              { date: "14/03/2020", city: "São Paulo" },
+              { date: "14/03/2020", city: "São Paulo" },
+              { date: "14/03/2020", city: "São Paulo" }
+            ],
+            prereq: "Nenhum"
           }
         ]
       }
